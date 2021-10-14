@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="xyz.farid.bidangdatar"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true">
+
+        <activity android:name=".MenuBangunDatar"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="PersegiPanjang" android:label="Persegi Panjang">
+        </activity>
+        <activity android:name="Segitiga" android:label="Segitiga">
+        </activity>
+        <activity android:name="Lingkaran" android:label="Lingkaran">
+        </activity>
+
+    </application>
+
+</manifest>

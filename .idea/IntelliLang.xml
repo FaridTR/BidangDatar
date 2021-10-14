@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="LanguageInjectionConfiguration">
+    <injection language="GitIgnore" injector-id="xml">
+      <display-name>manifest</display-name>
+      <place>xmlTag().withLocalName(string().equalTo(&quot;manifest&quot;))</place>
+    </injection>
+  </component>
+</project>
